@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BABA Home - Sign up</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/colours.css">
+        <link rel="stylesheet" href="style/format.css">
+        <link rel="stylesheet" href="style/text.css">
+    </head>
+    <body>
+        <h1>BABA Home</h1>
+        <h2>
+        <form action="process-signup.php" method="post" novalidate>
+            
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+                
+            
+            <br>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+            
+            <br>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            
+            <br>
+            
+            <label for="password-confirmation">Confirm password</label>
+            <input type="password" id="password-confirmation" 
+            name="password-confirmation">
+            
+            <br>
+            
+                
+            <button>Sign up</button>
+            <button formaction="index.php">Cancel</button>
+            
+        </form>
+        </h2>
+    </body>
+</html>
