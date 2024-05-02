@@ -4,11 +4,13 @@ import bme280 # for colelcting sensor data
 import smbus2 # for bus to connect sensor
 import mysql.connector # for sending sensor data to database
 
+#Insert values here
+
 sql_server = mysql.connector.connect(
-  host="stu-db.aet.leedsbeckett.ac.uk",
-  user="c3654717",
-  password="MyDB49240412",
-  database="c3654717"
+  host="",
+  user="",
+  password="",
+  database=""
 )
 
 sql_cursor = sql_server.cursor()
