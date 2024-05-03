@@ -1,5 +1,5 @@
 <?php
-
+# Insert values here
 $hostname = '';
 $username = ''; 
 $password = ''; 
