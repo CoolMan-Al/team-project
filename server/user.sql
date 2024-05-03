@@ -38,11 +38,6 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`userID`, `username`, `email`, `password_hash`) VALUES
-(1, 'benferro', 'benferro@gmail.com', '$2y$10$QivR25lXa4MmfSTXSyMkr.6yTgYMRJ.e/XmGeSVvCc1tBkKlkuZka'),
-(2, 'BabaAdmin', 'babashome@gmail.com', '$2y$10$XBUIPYtEfXo2KLWe78NQ4ezx7uJYcgSYcWu9PCVVFzWVhnN01WpaC'),
-(3, 'ben', 'ben@gmail.com', '$2y$10$t6S2kh304bgrL1QcEhjKiu/d09hoY9H594XeM/tlHArHP9umtSTKq');
-
 --
 -- Indexes for dumped tables
 --
