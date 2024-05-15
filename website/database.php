@@ -1,8 +1,8 @@
 <?php
-# Insert values here
+
 $hostname = '';
-$username = ''; 
-$password = ''; 
+$username = '';
+$password = '';
 $databaseName = '';
 
 $mysqli = new mysqli($hostname, $username, $password, $databaseName);
